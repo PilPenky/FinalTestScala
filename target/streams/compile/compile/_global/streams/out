@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Admin\Desktop\Учёба\Scala programming language\FinalTest\src\main\scala\DataComparator.scala:27:52: comparing values of types Char and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m        restId <- (obj \ "field" \@ "name").find(_ == "restId").map(_ => (obj \ "field" \ "string").text.trim)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Admin\Desktop\Учёба\Scala programming language\FinalTest\src\main\scala\DataComparator.scala:28:48: comparing values of types Char and String using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m        id <- (obj \ "field" \@ "name").find(_ == "id").map(_ => (obj \ "field" \ "string").text.trim)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m3 deprecations (since 2.13.3)[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 deprecations (since 2.6.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

@@ -1,0 +1,1469 @@
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSeparate classpath projects and all dependencies end. Took 2 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect only external dependencies end. Took 1 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect excluded jar names end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFilter jars end. Took 0 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade project classes end. Took 2 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect and shade dependency entries end. Took 21 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect renames end. Took 54 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mProcess renames end. Took 22 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCollect all merge strategies for cache check end. Took 65 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mBuilding assembly jar due to missing output...[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge all conflicting jar entries (including those renamed) end. Took 57 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results start:[0m
+[0m[[0m[0minfo[0m] [0m[0m304 file(s) merged using strategy 'First' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ContextFinder$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ContextFinder$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ContextFinder$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/DataBindingException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/DataBindingException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/DataBindingException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Element.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Element.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Element.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MimeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MimeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MimeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataContentHandlerFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataContentHandlerFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataContentHandlerFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXB$Cache.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXB$Cache.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXB$Cache.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlNs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlNs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlNs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/UnsupportedDataTypeException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/UnsupportedDataTypeException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/UnsupportedDataTypeException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-annotations-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = stax2-api-4.2.2.jar, jar org = org.codehaus.woodstox, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = txw2-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = module-info.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MailcapCommandMap$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MailcapCommandMap$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MailcapCommandMap$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/NormalizedStringAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/NormalizedStringAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/NormalizedStringAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/PrintConversionEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/PrintConversionEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/PrintConversionEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBContext.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlMimeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlMimeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlMimeType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElement$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElement$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElement$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/XmlAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Marshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Marshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Marshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ContextFinder$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ContextFinder$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ContextFinder$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Binder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Binder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Binder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/UnmarshallerHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/UnmarshallerHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/UnmarshallerHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElements.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElements.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElements.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/attachment/AttachmentUnmarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/attachment/AttachmentUnmarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/attachment/AttachmentUnmarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAccessorType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessorType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessorType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElementDecl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElementDecl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElementDecl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/PrintConversionEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/PrintConversionEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/PrintConversionEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/DefaultValidationEventHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/DefaultValidationEventHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/DefaultValidationEventHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlRootElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlRootElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlRootElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MimeTypeParseException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MimeTypeParseException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MimeTypeParseException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/GetPropertyAction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/GetPropertyAction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/GetPropertyAction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = reference.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-actor_2.13-2.8.5.jar, jar org = com.typesafe.akka, entry target = reference.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-http-core_2.13-10.5.3.jar, jar org = com.typesafe.akka, entry target = reference.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-http_2.13-10.5.3.jar, jar org = com.typesafe.akka, entry target = reference.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-stream_2.13-2.8.5.jar, jar org = com.typesafe.akka, entry target = reference.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = ssl-config-core_2.13-0.6.1.jar, jar org = com.typesafe, entry target = reference.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/util/JAXBSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/util/JAXBSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/util/JAXBSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElementWrapper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElementWrapper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElementWrapper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/AbstractUnmarshallerImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/AbstractUnmarshallerImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/AbstractUnmarshallerImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ServiceLoaderUtil$ExceptionHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ServiceLoaderUtil$ExceptionHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ServiceLoaderUtil$ExceptionHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MimetypesFileTypeMap$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MimetypesFileTypeMap$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MimetypesFileTypeMap$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAttribute.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAttribute.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAttribute.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/WhiteSpaceProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/WhiteSpaceProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/WhiteSpaceProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAnyAttribute.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAnyAttribute.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAnyAttribute.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/SecuritySupport$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/SecuritySupport$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/SecuritySupport$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ServiceLoaderUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ServiceLoaderUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ServiceLoaderUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlTransient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlTransient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlTransient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/SecuritySupport$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/SecuritySupport$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/SecuritySupport$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElementRef.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElementRef.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElementRef.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/PropertyException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/PropertyException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/PropertyException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/MarshalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/MarshalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/MarshalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/ParseConversionEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/ParseConversionEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/ParseConversionEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlNsForm.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlNsForm.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlNsForm.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/SchemaOutputResolver.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/SchemaOutputResolver.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/SchemaOutputResolver.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/FileDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/FileDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/FileDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MimeTypeParameterList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MimeTypeParameterList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MimeTypeParameterList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ValidationEventHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ValidationEventHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ValidationEventHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/NotIdentifiableEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/NotIdentifiableEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/NotIdentifiableEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/CommandMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/CommandMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/CommandMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/CommandObject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/CommandObject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/CommandObject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElementRefs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElementRefs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElementRefs.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ParseConversionEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ParseConversionEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ParseConversionEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapter$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapter$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapter$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/ValidationEventLocatorImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/ValidationEventLocatorImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/ValidationEventLocatorImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ContextFinder$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ContextFinder$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ContextFinder$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlSchemaTypes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlSchemaTypes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlSchemaTypes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/TypeConstraintException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/TypeConstraintException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/TypeConstraintException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataSourceDataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataSourceDataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataSourceDataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/ObjectDataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/ObjectDataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/ObjectDataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/DomHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/DomHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/DomHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/UnmarshalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/UnmarshalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/UnmarshalException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlSchemaType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlSchemaType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlSchemaType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MimetypesFileTypeMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MimetypesFileTypeMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MimetypesFileTypeMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/attachment/AttachmentMarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/attachment/AttachmentMarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/attachment/AttachmentMarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/ActivationDataFlavor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/ActivationDataFlavor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/ActivationDataFlavor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlRegistry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlRegistry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlRegistry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapters.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlSchema.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlSchema.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlSchema.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/FileTypeMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/FileTypeMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/FileTypeMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBIntrospector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBIntrospector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBIntrospector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ValidationException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ValidationException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ValidationException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Unmarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Unmarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Unmarshaller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAccessorOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessorOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessorOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/DatatypeConverter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/DatatypeConverter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/DatatypeConverter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/DatatypeConverterImpl$CalendarFormatter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/DatatypeConverterImpl$CalendarFormatter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/DatatypeConverterImpl$CalendarFormatter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/util/ValidationEventCollector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/util/ValidationEventCollector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/util/ValidationEventCollector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/CommandInfo$Beans.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/CommandInfo$Beans.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/CommandInfo$Beans.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ContextFinder$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ContextFinder$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ContextFinder$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlEnum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlEnum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlEnum.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/URLDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/URLDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/URLDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/ValidationEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/ValidationEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/ValidationEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBPermission.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBPermission.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBPermission.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ContextFinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ContextFinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ContextFinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/DatatypeConverterImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/DatatypeConverterImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/DatatypeConverterImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlSeeAlso.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlSeeAlso.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlSeeAlso.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlEnumValue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlEnumValue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlEnumValue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBContextFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBContextFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBContextFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ValidationEventLocator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ValidationEventLocator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ValidationEventLocator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/CommandInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/CommandInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/CommandInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Marshaller$Listener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Marshaller$Listener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Marshaller$Listener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlMixed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlMixed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlMixed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElementDecl$GLOBAL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElementDecl$GLOBAL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElementDecl$GLOBAL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlValue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlValue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlValue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ModuleUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ModuleUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ModuleUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Validator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Validator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Validator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/CommandInfo$Beans$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/CommandInfo$Beans$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/CommandInfo$Beans$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlIDREF.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlIDREF.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlIDREF.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ContextFinder$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ContextFinder$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ContextFinder$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/HexBinaryAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/HexBinaryAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/HexBinaryAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/util/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/util/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/util/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAccessType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/CollapsedStringAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/CollapsedStringAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/CollapsedStringAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlType$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlType$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlType$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/SecuritySupport$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/SecuritySupport$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/SecuritySupport$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataHandler$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataHandler$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataHandler$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/ValidationEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/ValidationEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/ValidationEvent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/W3CDomHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/W3CDomHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/W3CDomHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/MailcapCommandMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/MailcapCommandMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/MailcapCommandMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBContext$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBContext$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBContext$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/SecuritySupport$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/SecuritySupport$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/SecuritySupport$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/SecuritySupport.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/SecuritySupport.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/SecuritySupport.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlInlineBinaryData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlInlineBinaryData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlInlineBinaryData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAccessOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAccessOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/JAXBElement$GlobalScope.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/JAXBElement$GlobalScope.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/JAXBElement$GlobalScope.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/AbstractMarshallerImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/AbstractMarshallerImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/AbstractMarshallerImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/DatatypeConverterInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/DatatypeConverterInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/DatatypeConverterInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/util/JAXBSource$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/util/JAXBSource$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/util/JAXBSource$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/util/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/util/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/util/Messages.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAnyElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAnyElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAnyElement.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataHandlerDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataHandlerDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataHandlerDataSource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlAttachmentRef.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlAttachmentRef.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlAttachmentRef.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/Unmarshaller$Listener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/Unmarshaller$Listener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/Unmarshaller$Listener.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/NotIdentifiableEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/NotIdentifiableEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/NotIdentifiableEventImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlSchemaType$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlSchemaType$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlSchemaType$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/SecuritySupport$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/SecuritySupport$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/SecuritySupport$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/adapters/XmlJavaTypeAdapter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/annotation/XmlElementRef$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/annotation/XmlElementRef$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/annotation/XmlElementRef$DEFAULT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/activation/DataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = javax/activation/DataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = javax/activation/DataContentHandler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/helpers/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/helpers/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/helpers/Messages.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: First[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar entry = javax/xml/bind/util/JAXBResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = javax/xml/bind/util/JAXBResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = javax/xml/bind/util/JAXBResult.class[0m
+[0m[[0m[0minfo[0m] [0m[0m118 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-annotations-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = stax2-api-4.2.2.jar, jar org = org.codehaus.woodstox, entry target = META-INF/LICENSE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/services/javax.xml.bind.JAXBContext[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/maven/net.java.dev.msv/xsdlib/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/maven/com.fasterxml.woodstox/woodstox-core/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/javax.xml.stream.XMLEventFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/maven/com.sun.xml.bind.jaxb/isorelax/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = META-INF/versions/9/com/sun/istack/logging/StackHelper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = META-INF/maven/javax.activation/javax.activation-api/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-annotations-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/maven/org.glassfish.jaxb/jaxb-runtime/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = META-INF/LICENSE.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/maven/com.sun.activation/jakarta.activation/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/com.ctc.wstx.shaded.msv.relaxng_datatype.DatatypeLibraryFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = paranamer-2.8.jar, jar org = com.thoughtworks.paranamer, entry target = META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/maven/net.java.dev.msv/xsdlib/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/maven/org.glassfish.jaxb/jaxb-runtime/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/versions/9/com/sun/xml/bind/v2/runtime/reflect/opt/Injector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/LICENSE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = META-INF/LICENSE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = META-INF/LICENSE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/LICENSE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = txw2-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/LICENSE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/services/javax.xml.bind.JAXBContextFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/javax.xml.stream.XMLInputFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.relaxng[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = META-INF/maven/com.sun.istack/istack-commons-runtime/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = txw2-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/maven/org.glassfish.jaxb/txw2/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.dtd[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = META-INF/versions/9/javax/xml/bind/ModuleUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = META-INF/versions/9/javax/xml/bind/ModuleUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = META-INF/maven/jakarta.xml.bind/jakarta.xml.bind-api/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = META-INF/maven/javax.xml.bind/jaxb-api/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/NOTICE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = META-INF/NOTICE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = META-INF/NOTICE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/NOTICE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = txw2-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/NOTICE.md[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = shapeless_2.13-2.3.10.jar, jar org = com.chuusai, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-annotations-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = geny_2.13-1.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = requests_2.13-0.8.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = core_2.13-3.9.1.jar, jar org = com.softwaremill.sttp.client3, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = core_2.13-1.6.0.jar, jar org = com.softwaremill.sttp.model, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = core_2.13-1.3.16.jar, jar org = com.softwaremill.sttp.shared, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = ws_2.13-1.3.16.jar, jar org = com.softwaremill.sttp.shared, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = paranamer-2.8.jar, jar org = com.thoughtworks.paranamer, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-actor_2.13-2.8.5.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-http-core_2.13-10.5.3.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-http-spray-json_2.13-10.5.3.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-http_2.13-10.5.3.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-parsing_2.13-10.5.3.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-protobuf-v3_2.13-2.8.5.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = akka-stream_2.13-2.8.5.jar, jar org = com.typesafe.akka, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = config-1.4.2.jar, jar org = com.typesafe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = ssl-config-core_2.13-0.6.1.jar, jar org = com.typesafe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-core_2.13-0.14.6.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-generic_2.13-0.14.6.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-jawn_2.13-0.14.6.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-numbers_2.13-0.14.6.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = circe-parser_2.13-0.14.6.jar, jar org = io.circe, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = spray-json_2.13-1.3.6.jar, jar org = io.spray, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = stax2-api-4.2.2.jar, jar org = org.codehaus.woodstox, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = txw2-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = json4s-ast_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = json4s-core_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = json4s-jackson-core_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = json4s-jackson_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = json4s-scalap_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = json4s-xml_2.13-4.0.6.jar, jar org = org.json4s, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = reactive-streams-1.0.4.jar, jar org = org.reactivestreams, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-java8-compat_2.13-1.0.0.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-xml_2.13-2.2.0.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = scala-library-2.13.12.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = cats-core_2.13-2.9.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = cats-kernel_2.13-2.9.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jawn-parser_2.13-1.4.0.jar, jar org = org.typelevel, entry target = META-INF/MANIFEST.MF[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/NOTICE[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/NOTICE[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/versions/9/com/sun/xml/bind/v2/runtime/reflect/opt/AccessorInjector.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-api-2.3.1.jar, jar org = javax.xml.bind, entry target = META-INF/maven/javax.xml.bind/jaxb-api/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/services/com.fasterxml.jackson.core.JsonFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/mimetypes.default[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = paranamer-2.8.jar, jar org = com.thoughtworks.paranamer, entry target = META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = stax2-api-4.2.2.jar, jar org = org.codehaus.woodstox, entry target = META-INF/maven/org.codehaus.woodstox/stax2-api/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-core-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/javax.xml.stream.XMLOutputFactory[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/mailcap.default[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/services/com.fasterxml.jackson.core.ObjectCodec[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = istack-commons-runtime-3.0.11.jar, jar org = com.sun.istack, entry target = META-INF/maven/com.sun.istack/istack-commons-runtime/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = stax2-api-4.2.2.jar, jar org = org.codehaus.woodstox, entry target = META-INF/maven/org.codehaus.woodstox/stax2-api/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/maven/com.fasterxml.woodstox/woodstox-core/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.xml.bind-api-2.3.3.jar, jar org = jakarta.xml.bind, entry target = META-INF/maven/jakarta.xml.bind/jakarta.xml.bind-api/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-annotations-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/versions/9/com/sun/xml/bind/v2/runtime/reflect/opt/OptimizedTransducedAccessorFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jakarta.activation-1.2.2.jar, jar org = com.sun.activation, entry target = META-INF/maven/com.sun.activation/jakarta.activation/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jaxb-runtime-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/versions/9/com/sun/xml/bind/v2/runtime/reflect/opt/OptimizedAccessorFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = woodstox-core-6.5.1.jar, jar org = com.fasterxml.woodstox, entry target = META-INF/maven/com.sun.xml.bind.jaxb/isorelax/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = javax.activation-api-1.2.0.jar, jar org = javax.activation, entry target = META-INF/maven/javax.activation/javax.activation-api/pom.properties[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = txw2-2.3.3.jar, jar org = org.glassfish.jaxb, entry target = META-INF/maven/org.glassfish.jaxb/txw2/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge Strategy Used: Discard[0m
+[0m[[0m[0mdebug[0m] [0m[0mResulting entries:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  None[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerge origins:[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Jar name = jackson-databind-2.12.7.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mReport merge results end. Took 26 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinding remaining conflicts that were not merged end. Took 101 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mSort/Parallelize merged entries end. Took 47 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate jar end. Took 3725 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mHash newly-built Jar end. Took 160 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt: C:\Users\Admin\Desktop\Учёба\Scala programming language\FinalTest\target\scala-2.13\Scala programming language-assembly-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mJar hash: b8b8c19efc567191b661009b9056c7044c42e123[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references start:[0m
+[0m[[0m[0mdebug[0m] [0m[0mClose library jar references end. Took 5 ms[0m

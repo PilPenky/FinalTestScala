@@ -1,0 +1,13 @@
+[debug] > Exec(java -Dconfig.file=./src/main/resources/application.conf -jar "Scala programming language-assembly-0.1.0-SNAPSHOT.jar", None, None)
+[error] Expected ID character
+[error] Not a valid command: java (similar: eval, alias)
+[error] Expected 'java++'
+[error] Expected 'java+'
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: java (similar: javaHome, javaHomes, javaSource)
+[error] java -Dconfig.file=./src/main/resources/application.conf -jar "Scala programming language-assembly-0.1.0-SNAPSHOT.jar"
+[error]     ^
+[debug] > Exec(idea-shell, None, None)
